@@ -1,0 +1,129 @@
+body{ 
+   font-family:"Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+	font-size:small;
+	text-decoration:none
+    
+    	height:100%;
+	width:100%;
+	border-collapse:collapse;
+	margin:0;
+	padding:0;
+	background:#F3F3F3;
+	border:0
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+ 
+li{
+    width:200px;
+    height:50px;
+    float:left;
+    color:#191919;
+    text-align:center;
+    overflow:hidden;
+}
+ 
+a{
+    color:#FFF;
+    text-decoration:none;
+    font-size:small;
+}
+
+a:hover{
+	text-decoration:underline
+}
+
+  .canal{
+    font-family:"Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+    font-size:small;
+    text-decoration:none;
+    color:black;
+    text-align:center;
+  }
+    
+    .canal:hover{
+      text-decoration:underline;
+      margin: 0px 0px 0px 7px;
+    }
+
+section{
+    font-family:"Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+    font-size:small;
+    text-decoration:none;
+    color:black;
+    text-align:left;
+    margin: 0px 0px 0px 20px;
+}
+ 
+p{
+   padding:0px 5px;
+}
+    .subtext{
+        width:200px;
+        height: 50px;
+        padding-top:15px;
+        font-weight:bold;
+    }
+  
+    .main{
+        float:right;
+        margin-right:40px;
+        margin-left:auto;
+        overflow:hidden;
+        font-weight:bold;
+        cursor: default;
+    }
+ 
+    .select{
+        text-align:left;
+        margin: 0px 0px 0px 15px;
+        font-weight:bold;
+    }
+/*Menu Color Classes*/
+.green{background:#6AA63B;}
+.yellow{background:#FBC700;}
+.red{background:#D52100;}
+.purple{background:#5122B4;}
+.blue{background:#0292C0;}
+.deepSkyBlue{background:#00BFFF;}
+
+#background { 
+  
+  background-image: url(SIMTV2.jpg);
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+#caixa_sobre{
+	width: 400px;
+	background-color: rgba(122, 122, 122, 0.7);
+	text-align: justify;
+	margin-left: 175px;
+	border-radius: 10px;
+	padding: 8px;
+	position: absolute;
+	top: 40px;
+}
+
+#bg_sobre{
+	background-image: url(background-cinza.jpg);
+	-webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-repeat: no-repeat;
+	overflow:hidden;
+	}
+
+#imagem_sobre{
+	position: absolute;
+	width: 400px;
+	margin-top: 100px;
+	margin-left: 700px;
+}
